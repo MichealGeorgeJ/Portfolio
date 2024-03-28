@@ -56,7 +56,7 @@ body {
 }
 .about-btn {
     margin-top: 5rem;
-    
+
     color: #66ccff;
     animation: leftMove 5s alternate;
     
@@ -278,6 +278,10 @@ body {
 }
 .name{
     font-size: 2rem !important;
+}
+.image{
+    scale:2;
+    margin-top:2rem !important;
 }
 }
 
