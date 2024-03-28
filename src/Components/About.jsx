@@ -64,7 +64,7 @@ const About = ({ id }) => {
               <h1 className='name'>{typedName}</h1>
               <h6 className='description'>I am a passionate full-stack developer dedicated to crafting innovative web solutions that make a difference.</h6>
               <div className='d-flex justify-content-center'>
-                <button onClick={() => scrollToSection('bio')} className='btn w-25 about-btn d-flex align-items-center justify-content-center bg-white'><h3 className='mt-2'>About ...</h3></button>
+                <button onClick={() => scrollToSection('bio')} className='btn  about-btn d-flex align-items-center justify-content-center bg-white px-3'><h3 className='mt-2'>About ...</h3></button>
               </div>
             </div>
             <div className='profile-image d-flex justify-content-center align-items-center w-50'>
