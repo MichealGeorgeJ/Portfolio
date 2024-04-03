@@ -260,6 +260,18 @@ body {
 
  
 @media (max-width: 768px) {
+
+    @keyframes imageScale{
+        0%{
+            scale:.5;
+            opacity: 0;
+        }
+       
+        100%{
+            scale:2;
+            opacity: 1;
+        }
+     }
     .foo{
         display: flex;
         flex-direction: column !important;

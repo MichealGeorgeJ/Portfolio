@@ -9,9 +9,11 @@ import Resume from './Components/Resume'
 import Contact from './Components/Contact'
 import Bio from './Components/Bio'
 import Footer from './Components/Footer';
+
 const App = () => {
   return (
     <div>
+      
       <Navbar id='nav-bar'/>
       <About id="about" />
       <Projects id="projects" />      
@@ -20,6 +22,7 @@ const App = () => {
       <Bio id="bio" />
       <Contact id="contact" />
       <Footer id="footer" />
+      
       <ToastContainer autoClose={2000} />
     </div>
   )
