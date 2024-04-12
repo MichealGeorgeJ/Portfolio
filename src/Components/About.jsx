@@ -70,7 +70,7 @@ I am a fervent full-stack developer, committed to translating concepts into digi
             </div>
             <div className='profile-image d-flex justify-content-center align-items-center w-50'>
               <div className='d-flex justify-content-center align-items-center w-100'>
-                <img className={`image w-75 ${isScrollingUp ? 'image-moveRight' : ''} ${isScrollingDown ? 'image-moveLeft' : ''} ${resetAnimation ? 'reset-animation' : ''}`} src="https://res.cloudinary.com/dkwftase4/image/upload/v1711615911/portfolio_pic_jdctnz.png" />
+                <img className={`image w-75 ${isScrollingUp ? 'image-moveRight' : ''} ${isScrollingDown ? 'image-moveLeft' : ''} `} src="https://res.cloudinary.com/dkwftase4/image/upload/v1711615911/portfolio_pic_jdctnz.png" />
               </div>
             </div>
           </div>

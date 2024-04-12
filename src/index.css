@@ -172,11 +172,18 @@ body {
 .image-moveRight {
     animation: moveTop 3s infinite alternate, image-moveLeft 0.5s ease-in-out forwards;
 }
-
+.projects-card {
+    transition: transform 2s, box-shadow 2s; 
+}
 .projects-card:hover {
-    scale: 1.1;
-   
-    box-shadow: #66ccff 0px 19px 38px, #66ccff 0px 15px 12px !important;
+    transform: scale(1.1);
+    transition: 1.5s;
+    /*scale: 1.1;
+    */box-shadow: #66ccff 0px 19px 38px, #66ccff 0px 15px 12px !important;
+    -webkit-transition: 1.5s;
+    -moz-transition: 1.5s;
+    -ms-transition: 1.5s;
+    -o-transition: 1.5s;
 }
 
 .reset-animation {
