@@ -30,7 +30,7 @@ const Contact = ({ id }) => {
 
   return (
     <div id={id}>
-      <div className="container mt-5">
+      <div className="container ">
         <div className="row d-flex justify-content-center ">
           <div className="col-lg-6 col-sm-12">
             <h1>Contact</h1>

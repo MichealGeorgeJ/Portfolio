@@ -16,10 +16,11 @@ const App = () => {
       
       <Navbar id='nav-bar'/>
       <About id="about" />
-      <Projects id="projects" />      
-      <Skills id="skills" />
+      <Bio id="bio"  />
       <Resume id="resume" />
-      <Bio id="bio" />
+      <Skills id="skills" />
+      <Projects id="projects" />    
+      
       <Contact id="contact" />
       <Footer id="footer" />
       

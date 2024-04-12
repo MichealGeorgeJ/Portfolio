@@ -71,6 +71,7 @@ const NavBar = ({ id }) => {
               <Nav.Link className='nav-items mx-2 p-2' onClick={() => scrollToSection('contact')} style={{ color: '#6495ed' }}>
                 Contact
               </Nav.Link>
+             
             </Nav>
           </Navbar.Collapse>
         </Container>

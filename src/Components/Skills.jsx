@@ -101,15 +101,15 @@ const Skills = ({ id }) => {
           <h1>Known Technologies</h1>
         </div>
         <div className="row d-flex justify-content-between">
-          {/* Iterate over each category of skills */}
+          
           {Object.keys(skillsData).map(category => (
-            <div className="col-lg-4 col-sm-6 mb-5 " key={category}>
+            <div className="col-lg-4 col-sm-6 mt-5 " key={category}>
               <div className='d-flex justify-content-center '>
-                <h3 className=''>{category.replace(/([A-Z])/g, ' $1').trim()}</h3> {/* Convert camelCase to spaced text */}
+                <h3 className=''>{category.replace(/([A-Z])/g, ' $1').trim()}</h3> 
               </div>
               <div style={{ boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px", borderRadius: ".5rem" }} className="card projects-card h-100">
                 <div className="card-body d-flex flex-column align-items-start">
-                  {/* Iterate over skills within each category */}
+                 
                   {skillsData[category].map(skill => (
                     <div key={skill.skillName}>
                       <h5><img className='skill-icons' src={skill.imageUrl} alt="" /> {skill.skillName}</h5>

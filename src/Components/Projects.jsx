@@ -24,14 +24,14 @@ const Projects = ({id}) => {
   ]
   return (
     <div  id={id} >
-      <div  className="container p-5 mt-5">
+      <div  className="container p-5 ">
         <div className='d-flex justify-content-center'>
           <h1>Projects</h1>
         </div>
         <div className="row d-flex justify-content-between">
           {
             projects.map((project,id)=>(
-              <div key={id} className="col-lg-4 col-sm-6 mt-4  ">
+              <div key={id} className="col-lg-4 col-sm-6  ">
             <div style={{boxShadow:"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",borderRadius:".5rem"}} className="card projects-card h-100">
               <div  className='d-flex align-items-center justify-content-center image-card '>
                 <img style={{border:"1px solid #66ccff"}} className='card-img-top p-2'src={project.imageUrl} alt="image" />

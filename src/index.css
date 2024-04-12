@@ -24,22 +24,24 @@ body {
 #projects{
 
     width:100%;
-    background: linear-gradient(to bottom,  #66ccff  0%, #ffffff 100%);
+    background: linear-gradient(to bottom,   #ffffff 0%,  #66ccff 100%);
+   
    
 }
 #skills{
     width:100%;
-    background: linear-gradient(to bottom,   #ffffff 0%,  #66ccff 100%);
+    background: linear-gradient(to bottom,  #66ccff  0%, #ffffff 100%);
    
 }
 #resume{
     width:100%;
-    background: linear-gradient(to bottom,  #66ccff  0%, #ffffff 100%);
-    margin-top:2rem
+    background: linear-gradient(to bottom,   #ffffff  0%, #66ccff 100%);
+    
 }
 #bio{
     width:100%;
-    background: linear-gradient(to bottom,   #ffffff  0%, #66ccff 100%);
+    background: linear-gradient(to bottom,  #66ccff  0%, #ffffff 100%);
+    
 }
 
 #contact{

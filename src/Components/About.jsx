@@ -62,7 +62,8 @@ const About = ({ id }) => {
             <div className={`profile-text ${isScrollingDown ? 'animate-moveLeft' : ''} ${isScrollingUp ? 'animate-moveRight' : ''}`}>
               {/* Conditional rendering of the name */}
               <h1 className='name'>{typedName}</h1>
-              <h6 className='description'>I am a passionate full-stack developer dedicated to crafting innovative web solutions that make a difference.</h6>
+              <h6 className='description'>
+I am a fervent full-stack developer, committed to translating concepts into digital brilliance. With expertise in both frontend finesse and backend robustness .</h6>
               <div className='d-flex justify-content-center'>
                 <button onClick={() => scrollToSection('bio')} className='btn  about-btn d-flex align-items-center justify-content-center bg-white px-3'><h3 className='mt-2'>About ...</h3></button>
               </div>
